@@ -47,11 +47,11 @@ After all the pods are running
 kubectl port-forward -n istio-system svc/istio-ingressgateway 8080:80
 ```
 Input in the browser
-```javascript
+```Bash
 http://localhost:8080/
 ```
 or
-```javascript
+```Bash
 127.0.0.1:8080
 ```
 Email Address：user@example.com
