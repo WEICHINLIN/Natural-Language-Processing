@@ -34,13 +34,28 @@ sudo chmod +x *
 ```Bash
 sudo docker.sh
 ```
-reboot VM or computer
+reboot VM or computer.
 ```Bash
 sudo minikube.sh
 ```
 ```Bash
 sudo kubeflow.sh
 ```
+### Step 3：Port-forward
+After all the pods are running
+```Bash
+kubectl port-forward -n istio-system svc/istio-ingressgateway 8080:80
+```
+Input in the browser
+```javascript
+http://localhost:8080/
+```
+or
+```javascript
+127.0.0.1:8080
+```
+Email Address：user@example.com
+Password：12341234
 
 
 ## Docker
