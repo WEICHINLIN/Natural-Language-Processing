@@ -54,8 +54,9 @@ or
 ```Bash
 127.0.0.1:8080
 ```
-Email Address：user@example.com
-Password：12341234
+* Email Address：user@example.com
+* Password：12341234
 
+There may be several pods that are not running, as long as you can login and use it normally, don't worry about it.
 
 ## Docker
