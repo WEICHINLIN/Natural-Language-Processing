@@ -1,9 +1,9 @@
 # Kubeflow---Natural-Language-Processing
 Version
-Docker:
-Kubectl:
-Minikube:
-Kubeflow:
+* Docker:
+* Kubectl:
+* Minikube:
+* Kubeflow:
 
 ## Install
 
