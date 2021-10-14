@@ -1,5 +1,5 @@
 # Kubeflow---Natural-Language-Processing
-## Install Version
+## Version
 * Docker：20.10.7
 * Kubectl：v1.20.1
 * Minikube：v1.20.0
