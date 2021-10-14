@@ -5,7 +5,7 @@
 * Minikube：v1.20.0
 * Kubeflow：v1.3
 
-If you install kubeflow v1.3, you can skip the install.
+> If you install kubeflow v1.3, you can skip the install.
 
 ## Install
 ### Step 1：Change the < user > to your own
@@ -41,7 +41,7 @@ sudo minikube.sh
 ```Bash
 sudo kubeflow.sh
 ```
-### Step 3：Port-forward
+### Step 4：Port-forward
 After all the pods are running
 ```Bash
 kubectl port-forward -n istio-system svc/istio-ingressgateway 8080:80
@@ -57,6 +57,7 @@ or
 * Email Address：user@example.com
 * Password：12341234
 
-There may be several pods that are not running, as long as you can login and use it normally, don't worry about it.
+> There may be several pods that are not running, as long as you can login and use it normally, don't worry about it.
+> If Step 3：Execution cannot be executed normally, you can open the file and execute it line by line
 
 ## Docker
