@@ -9,6 +9,7 @@ If you install kubeflow v1.3, you can skip the install.
 
 ## Install
 
+```bash
     sudo chmod +x docker.sh
     sudo chmod +x minikube.sh
     sudo chmod +x kubeflow.sh
