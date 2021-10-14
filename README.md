@@ -15,6 +15,8 @@ sudo chmod +x minikube.sh
 sudo chmod +x kubeflow.sh
 ```
 or\
-    sudo chmod +x *
+```Bash
+sudo chmod +x *
+```
 
 ## Docker
