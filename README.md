@@ -20,7 +20,7 @@ KF_NAME=v1.3
 KF_DIR=${KUBEFLOW_ROOT}/${KF_NAME}
 ```
   
-1.
+### Step 1：Give execution permission
 ```Bash
 sudo chmod +x docker.sh
 sudo chmod +x minikube.sh
@@ -30,5 +30,6 @@ or
 ```Bash
 sudo chmod +x *
 ```
+### Step 2：
 
 ## Docker
