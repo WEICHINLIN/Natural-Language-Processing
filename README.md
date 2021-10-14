@@ -1,5 +1,4 @@
-# Kubeflow---Natural-Language-Processing
-## Version
+# Version
 * Docker：20.10.7
 * Kubectl：v1.20.1
 * Minikube：v1.20.0
@@ -7,7 +6,7 @@
 
 > If you install kubeflow v1.3, you can skip the install.
 
-## Install
+# Install
 ### Step 1：Change the < user > to your own
 * docker.sh
 ```Bash
@@ -60,4 +59,4 @@ or
 > There may be several pods that are not running, as long as you can login and use it normally, don't worry about it. \
 > If Step 3：Execution cannot be executed normally, you can open the file and execute it line by line.
 
-## Docker
+# Docker
