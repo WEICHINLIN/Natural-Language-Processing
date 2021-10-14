@@ -8,7 +8,7 @@
 If you install kubeflow v1.3, you can skip the install.
 
 ## Install
-### Change the < user > to your own
+### Step 1：Change the < user > to your own
 * docker.sh
 ```Bash
 usermod -aG docker <user>
@@ -20,7 +20,7 @@ KF_NAME=v1.3
 KF_DIR=${KUBEFLOW_ROOT}/${KF_NAME}
 ```
   
-### Step 1：Give execution permission
+### Step 2：Give execution permission
 ```Bash
 sudo chmod +x docker.sh
 sudo chmod +x minikube.sh
@@ -30,6 +30,17 @@ or
 ```Bash
 sudo chmod +x *
 ```
-### Step 2：
+### Step 3：Execution
+```Bash
+sudo docker.sh
+```
+reboot VM or computer
+```Bash
+sudo minikube.sh
+```
+```Bash
+sudo kubeflow.sh
+```
+
 
 ## Docker
