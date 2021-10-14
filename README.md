@@ -8,7 +8,7 @@
 If you install kubeflow v1.3, you can skip the install.
 
 ## Install
-### Change the <user> to your own
+### Change the < user > to your own
 ```Bash
 usermod -aG docker <user>
 ```
