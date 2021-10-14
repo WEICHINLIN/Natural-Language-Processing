@@ -9,11 +9,11 @@ If you install kubeflow v1.3, you can skip the install.
 
 ## Install
 ### Change the < user > to your own
-docker.sh
+* docker.sh
 ```Bash
 usermod -aG docker <user>
 ```
-kubeflow.v13.sh
+* kubeflow.v13.sh
 ```Bash
 KUBEFLOW_ROOT=/home/<user>/kubeflow
 KF_NAME=v1.3
