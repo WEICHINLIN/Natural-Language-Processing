@@ -57,7 +57,7 @@ or
 * Email Address：user@example.com
 * Password：12341234
 
-> There may be several pods that are not running, as long as you can login and use it normally, don't worry about it.
+> There may be several pods that are not running, as long as you can login and use it normally, don't worry about it. \
 > If Step 3：Execution cannot be executed normally, you can open the file and execute it line by line
 
 ## Docker
