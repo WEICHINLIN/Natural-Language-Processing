@@ -63,3 +63,7 @@ or
 
 > I have provided a public docker image. < m10913018/nltk env:1.0.0 > \
 > There are only python packages and html files inside, no code related to natural language processing.
+
+image
+
+> You can customize the web page and remake the docker image.
