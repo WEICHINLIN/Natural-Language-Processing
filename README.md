@@ -54,8 +54,8 @@ or
 ```Bash
 127.0.0.1:8080
 ```
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/login.png" width="300" height="200" alt="Login Picture"/><br/>
-* Email Address：user@example.com \
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/login.png" width="350" height="200" alt="Login Picture"/><br/>
+* Email Address：user@example.com
 * Password：12341234
 
 > There may be several pods that are not running, as long as you can login and use it normally, don't worry about it. \
