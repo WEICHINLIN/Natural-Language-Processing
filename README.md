@@ -72,7 +72,7 @@ or
 
 # Jupyter Notebook - Natural Language Processing
 > Please put the files in Jupyter into the folder of Jupyter Notebook first. \
-> If you use Minikube to install Kubeflow, the folder of Jupyter Notebook will usually be in \
+> If you use Minikube to install Kubeflow, the folder of Jupyter Notebook will usually be in：
 ```Bash
 /tmp/hostpath-provisioner/kubeflow-user-example-com/<your Jupyter name>
 ```
