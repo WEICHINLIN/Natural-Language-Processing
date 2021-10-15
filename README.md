@@ -61,4 +61,4 @@ or
 
 # Docker
 
-w
+> I have provided a public docker image, m10913018/nltk env:1.0.0, only python package and html file inside, no natural language related code.
