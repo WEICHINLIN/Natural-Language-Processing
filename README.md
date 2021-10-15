@@ -54,7 +54,7 @@ or
 ```Bash
 127.0.0.1:8080
 ```
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/login.png" width="200" height="200" alt="Login Picture"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/login.png" width="200" height="400" alt="Login Picture"/>
 * Email Address：user@example.com
 * Password：12341234
 
