@@ -65,7 +65,7 @@ or
 > I have provided a public docker image. < m10913018/nltk env:1.0.0 > \
 > There are only python packages and html files inside, no code related to natural language processing.
 
-![GITHUB]https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/http.png
+![image](https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/http.png)
 
 > You can customize the web page and remake the docker image.
 
