@@ -1,4 +1,5 @@
 # Version
+
 * Docker：20.10.7
 * Kubectl：v1.20.1
 * Minikube：v1.20.0
@@ -7,6 +8,7 @@
 > If you install kubeflow v1.3, you can skip the install.
 
 # Install
+
 ### Step 1：Change the < user > to your own
 * docker.sh
 ```Bash
