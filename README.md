@@ -77,4 +77,4 @@ or
 /tmp/hostpath-provisioner/kubeflow-user-example-com/<your Jupyter name>
 ```
 
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.png" width="350" height="400" alt="NLTK Pipeline Picture"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.png" width="370" height="400" alt="NLTK Pipeline Picture"/><br/>
