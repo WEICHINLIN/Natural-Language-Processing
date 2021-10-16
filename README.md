@@ -92,3 +92,5 @@ or
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.png" width="370" height="400" alt="Pipeline"/><br/>
 ## Http port data
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/port01.png" width="600" height="300" alt="port01"/><br/>
+## Input to Terminal
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/port02.png" width="600" height="300" alt="port01"/><br/>
