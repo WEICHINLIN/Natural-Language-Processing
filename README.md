@@ -88,4 +88,4 @@ or
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/data%20list.png" width="1200" height="200" alt="Flow Chart"/><br/>
 
 # Pipeline
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.png" width="350" height="400" alt="Flow Chart"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.png" width="370" height="400" alt="Flow Chart"/><br/>
