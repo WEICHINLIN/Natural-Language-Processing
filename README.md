@@ -88,7 +88,20 @@ or
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/data%20list.png" width="1200" height="200" alt="Flow Chart"/><br/>
 
 # Port Forward
-## Pipeline Http port data
+
+### Step 1：Find the pod name of Http port
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.jpg" width="1000" height="500" alt="Pipeline"/><br/>
-## Input to Terminal
+### Step 2：Port-forward
+```Bash
+kubectl port-forward -n kubeflow-user-example-com <pod name> 3000:5000
+```
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/port%20forward.png" width="750" height="300" alt="Pipeline"/><br/>
+### Step 3：Input in the browser
+```Bash
+http://localhost:3000/
+```
+or
+```Bash
+127.0.0.1:3000
+```
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/http.png" width="300" height="200" alt="Http Picture"/><br/>
