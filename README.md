@@ -76,4 +76,5 @@ or
 ```Bash
 /tmp/hostpath-provisioner/kubeflow-user-example-com/<your Jupyter name>
 ```
-
+### Flow Chart
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/flow%20chart.png" width="700" height="300" alt="Flow Chart"/><br/>
