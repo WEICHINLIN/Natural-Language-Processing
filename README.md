@@ -89,6 +89,6 @@ or
 
 # Port Forward
 ## Pipeline Http port data
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.jpg" width="1200" height="600" alt="Pipeline"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.jpg" width="1000" height="500" alt="Pipeline"/><br/>
 ## Input to Terminal
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/port%20forward.png" width="1000" height="400" alt="Pipeline"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/port%20forward.png" width="750" height="300" alt="Pipeline"/><br/>
