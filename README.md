@@ -79,3 +79,5 @@ or
 ## Flow Chart
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/flow%20chart.png" width="1200" height="200" alt="Flow Chart"/><br/>
 ## Custom data
+> Twitter-5000-nltk and Cornell-1000-nltk use similar code, and the difference is in downloading and reading data.
+> pos_tweets and neg_tweets are in list format. If you want to use other data, you only need to classify the data and save it in str format into pos_tweets and neg_tweets.
