@@ -104,4 +104,6 @@ or
 ```Bash
 127.0.0.1:3000
 ```
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/http.png" width="300" height="200" alt="Http Picture"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nice%20to%20meet%20you.png" width="300" height="200" alt="Http Picture"/><br/>
+### Step 3：Predict
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/predict.png" width="800" height="300" alt="Http Picture"/><br/>
