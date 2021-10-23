@@ -27,7 +27,7 @@ sudo rm –rf *
 cd /usr/local/bin/
 sudo rm –rf *
 ```
-In line 11, uncommented indicates that startup cleanup is enabled, and comment indicates that startup cleanup is not enabled.
+In line 11, uncommented indicates that startup cleanup is enabled, and comment indicates that startup cleanup is not enabled. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/boot%20cleanup.png" alt="ls -l no"/><br/>
 
 # Install
@@ -85,5 +85,10 @@ or
 * Email Address：user@example.com
 * Password：12341234
 
-> There may be several pods that are not running, as long as you can login and use it normally, don't worry about it. \
-> If Step 3：Execution cannot be executed normally, you can open the file and execute it line by line.
+### Step 5：Disable boot cleanup
+```Bash
+cd /usr/local/bin/
+sudo rm –rf *
+```
+In line 11, uncommented indicates that startup cleanup is enabled, and comment indicates that startup cleanup is not enabled. \
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/boot%20cleanup%20up.png" alt="ls -l no"/><br/>
