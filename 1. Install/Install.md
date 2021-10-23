@@ -18,7 +18,9 @@ or
 ```Bash
 sudo chmod +x *
 ```
+If successful, the file name will turn green. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20yes.png" alt="ls"/><br/>
+Then you can proceed to the next step.
 
 ### Step 3：Execution
 ```Bash
