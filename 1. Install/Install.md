@@ -132,6 +132,7 @@ Close Minikube completely, and enter:
 minikube start
 ```
 Wait for Minikube to start.
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/second%20minikube.png" alt="second minikube"/><br/>
 After starting, confirm whether the Pod is running. After running, you can execute port-forward.
 
 # Relevant part
