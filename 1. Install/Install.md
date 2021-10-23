@@ -82,6 +82,7 @@ or
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/login.png" alt="login"/><br/>
 * Email Address：user@example.com
 * Password：12341234
+
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/kubeflow%20home.png" alt="kubeflow home"/><br/>
 
 ### Step 5：Disable boot cleanup
