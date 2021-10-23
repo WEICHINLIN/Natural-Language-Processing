@@ -48,6 +48,15 @@ You can confirm the accuracy of the NLP individually, \
 or you can use a comparison run for comparison. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/compare%20runs.png" alt="compare"/><br/>
 
+# Disabling caching in your Kubeflow Pipelines deployment
+> If you delete the pvc and execute the pipeline again, you find that it does not work properly, it may be a cache problem. \
+> The following command can be executed to disable the cache.
+```Bash
+export NAMESPACE=kubeflow
+kubectl patch mutatingwebhookconfiguration cache-webhook-${NAMESPACE} --type='json' -p='[{"op":"replace", "path": "/webhooks/0/rules/0/operations/0", "value": "DELETE"}]'
+```
+* [Kubeflow Caching](https://www.kubeflow.org/docs/components/pipelines/caching/)
+
 # Relevant part
 
 * [About Version](https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/README.md)
