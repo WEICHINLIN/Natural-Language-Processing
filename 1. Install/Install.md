@@ -26,8 +26,8 @@ Then you can proceed to the next step.
 ```Bash
 sudo ./docker.sh
 ```
-reboot VM or computer.
-Then confirm the docker version.
+reboot VM or computer. \
+Then confirm the docker version. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/docker%20version.png" alt="docker version"/><br/>
 If you can see Clinet and Server versions, it means success.
 ```Bash
