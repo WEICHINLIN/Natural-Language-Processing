@@ -18,7 +18,7 @@ or
 ```Bash
 sudo chmod +x *
 ```
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20yes.png" width="600" height="200" alt="ls"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20yes.png" width="600" height="300" alt="ls"/><br/>
 
 ### Step 3：Execution
 ```Bash
