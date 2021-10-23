@@ -26,5 +26,5 @@ kustomize version
 ```
 * Kubeflow
 > Only the version of kubeflow has no relevant instructions to query. \
-> You can find the version of kubeflow in kubeflow.v13.sh in 1. Install. \
-> kubeflow.v13.sh has a download file of v1.3.1.tar, v1.3.1 is the version number of kubeflow. \
+> The version of kubeflow can be found in 1. Installed kubeflow.v13.sh. \
+> When kubeflow.v13.sh is executed, v1.3.1.tar will be downloaded, v1.3.1 is the version number of kubeflow.
