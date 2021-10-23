@@ -1,7 +1,8 @@
 # Clean Kubeflow v1.2 (Minikube)
 
 kubeflow v1.2 cannot be directly upgraded to kubeflow v1.3, you need to delete kubeflow v1.2 and install kubeflow v1.3. \
-<font color="red">Don't forget to back up your files.</font>
+Don't forget to back up your files.
+<font color=red>我是红色</font>
 
 ### Step 1：Delete minikube environment
 ```Bash
