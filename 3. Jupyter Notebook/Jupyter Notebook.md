@@ -42,10 +42,10 @@ or
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/nice%20to%20meet%20you.png" alt="nice to meet you"/><br/>
 
 # Accuracy
-You can confirm the accuracy of the NLP individually,
+You can confirm the accuracy of the NLP individually, \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/twitter-5000%20accuracy.png" alt="twitter"/><br/>
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/cornell-1000%20accuracy.png" alt="cornell"/><br/>
-or you can use a comparison run for comparison.
+or you can use a comparison run for comparison. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/compare%20runs.png" alt="compare"/><br/>
 # Relevant part
 
