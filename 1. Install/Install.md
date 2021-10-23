@@ -70,6 +70,8 @@ In this way, subsequent commands related to kubectl and minikube do not need to 
 ```Bash
 sudo chown –R <user_name> .kube .minikube
 ```
+You can enter ls -l -a to confirm, the first name is the owner and the second name is the group.
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/chown.png" alt="chown"/><br/>
 It’s okay if you don’t do this step to change the owner, you can skip it directly.
 ```Bash
 sudo ./kubeflow.v13.sh
