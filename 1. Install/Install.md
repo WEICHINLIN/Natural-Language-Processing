@@ -51,7 +51,7 @@ If successful, the file name will turn green. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20yes.png" alt="ls -l yes"/><br/>
 Then you can proceed to the next step.
 
-### Step 3：Execution
+### Step 3：sudo ./docker.sh
 ```Bash
 sudo ./docker.sh
 ```
@@ -59,6 +59,8 @@ reboot VM or computer. \
 Then confirm the docker version. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/docker%20version.png" alt="docker version"/><br/>
 If you can see Clinet and Server versions, it means success.
+
+### Step 4：sudo ./minikube.sh
 ```Bash
 sudo ./minikube.sh
 ```
@@ -76,11 +78,13 @@ ls -l -a
 ```
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/chown.png" alt="chown"/><br/>
 It’s okay if you don’t do this step to change the owner, you can skip it directly.
+
+### Step 5：sudo ./kubeflow.v13.sh
 ```Bash
 sudo ./kubeflow.v13.sh
 ```
 
-### Step 4：Port-forward
+### Step 6：Port-forward
 After all the pods are running
 ```Bash
 kubectl port-forward -n istio-system svc/istio-ingressgateway 8080:80
@@ -99,7 +103,7 @@ or
 
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/kubeflow%20home.png" alt="kubeflow home"/><br/>
 
-### Step 5：Disable boot cleanup
+### Step 7：Disable boot cleanup
 ```Bash
 cd /usr/local/bin/
 sudo rm –rf *
