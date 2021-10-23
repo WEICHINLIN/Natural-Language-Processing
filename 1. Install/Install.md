@@ -27,7 +27,7 @@ sudo rm –rf *
 In line 11, uncommented indicates that startup cleanup is enabled, and comment indicates that startup cleanup is not enabled. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/boot%20cleanup.png" alt="ls -l no"/><br/>
 
-# Install (First minikube start)
+# Install Kubeflow v1.3 (First minikube start)
 
 ### Step 1：Open the terminal
 You must make sure you can find the following files when typing ls -l on the terminal.
