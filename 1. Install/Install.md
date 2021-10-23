@@ -45,7 +45,7 @@ sudo chmod +x kubeflow.sh
 ```
 or
 ```Bash
-sudo chmod +x *
+sudo chmod +x *.sh
 ```
 If successful, the file name will turn green. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20yes.png" alt="ls -l yes"/><br/>
