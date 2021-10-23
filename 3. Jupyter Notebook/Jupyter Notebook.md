@@ -40,6 +40,7 @@ or
 
 ### Step 4：Predict
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/nice%20to%20meet%20you.png" alt="nice to meet you"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/NLP%20N.png" alt="i hate you"/><br/>
 
 # Accuracy
 You can confirm the accuracy of the NLP individually, \
