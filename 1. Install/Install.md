@@ -27,10 +27,10 @@ sudo rm –rf *
 In line 11, uncommented indicates that startup cleanup is enabled, and comment indicates that startup cleanup is not enabled. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/boot%20cleanup.png" alt="ls -l no"/><br/>
 
-# Install
+# Install (First minikube start)
 
 ### Step 1：Open the terminal
-You must make sure you can find the following files when typing ls -l on the terminal. \
+You must make sure you can find the following files when typing ls -l on the terminal.
 ```Bash
 ls -l
 ```
@@ -95,6 +95,19 @@ In line 11, uncommented indicates that startup cleanup is enabled, and comment i
 > Kubeflow installed on Minikube will store data in /tmp/hostpath-provisioner. \
 > The data in /tmp will be deleted after shutdown. \
 > To ensure that the data is not deleted, this function needs to be disabled.
+
+# Second minikube start
+After the installation is complete and startup cleanup is disabled, you can shut down your computer without worrying about data loss.
+After restarting the computer or virtual machine, enter:
+```Bash
+minikube stop
+```
+Close Minikube completely, and enter:
+```Bash
+minikube start
+```
+Wait for Minikube to start.
+After starting, confirm whether the Pod is running. After running, you can execute port-forward.
 
 # Relevant part
 
