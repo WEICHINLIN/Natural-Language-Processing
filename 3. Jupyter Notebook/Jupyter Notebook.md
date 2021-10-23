@@ -6,12 +6,13 @@
 /tmp/hostpath-provisioner/kubeflow-user-example-com/<your Jupyter name>
 ```
 ## Pipeline
-> The files in the ZIP are the files generated after the code is executed.
+> Cornell-1000.zip and twitter-5000.zip are compressed files generated after executing Cornell-1000-nltk.ipynb and Twitter-5000-nltk.ipynb. \
+> The content of the compressed file is the yaml file of the pipeline.
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/pipeline.png" alt="pipeline"/><br/>
 
 ## Custom data
 > Twitter-5000-nltk and Cornell-1000-nltk use similar code, and the difference is in downloading and reading data. \
-> If you want to use other data, you only need to classify the data and save it in str format into pos_tweets and neg_tweets. \
+> If you want to use other data, you only need to classify the data and save it in str format into pos_tweets and neg_tweets.
 
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/data%20list.png" alt="data list"/><br/>
 
