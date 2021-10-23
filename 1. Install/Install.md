@@ -5,7 +5,7 @@ You must make sure you can find the following files when typing ls -l on the ter
 ```Bash
 ls -l
 ```
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20no.png" alt="ls"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20no.png" alt="ls -l no"/><br/>
 Then you can proceed to the next step.
 
 ### Step 2：Give execution permission
@@ -19,19 +19,22 @@ or
 sudo chmod +x *
 ```
 If successful, the file name will turn green. \
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20yes.png" alt="ls"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20yes.png" alt="ls -l yes"/><br/>
 Then you can proceed to the next step.
 
 ### Step 3：Execution
 ```Bash
-sudo docker.sh
+sudo ./docker.sh
 ```
 reboot VM or computer.
+Then confirm the docker version.
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/docker%20version.png" alt="docker version"/><br/>
+If you can see Clinet and Server versions, it means success.
 ```Bash
-sudo minikube.sh
+sudo ./minikube.sh
 ```
 ```Bash
-sudo kubeflow.sh
+sudo ./kubeflow.v13.sh
 ```
 ### Step 4：Port-forward
 After all the pods are running
