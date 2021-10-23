@@ -1,9 +1,12 @@
 # Install
 
 ### Step 1：Open the terminal
-You must make sure you can find the following files when typing ls on the terminal. \
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls.png" width="300" height="100" alt="ls"/><br/>
-Once found, you can proceed to the next step.
+You must make sure you can find the following files when typing ls -l on the terminal. \
+```Bash
+ls -l
+```
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20no.png" width="300" height="100" alt="ls"/><br/>
+Then you can proceed to the next step.
 
 ### Step 2：Give execution permission
 ```Bash
@@ -15,6 +18,8 @@ or
 ```Bash
 sudo chmod +x *
 ```
+
+
 ### Step 3：Execution
 ```Bash
 sudo docker.sh
