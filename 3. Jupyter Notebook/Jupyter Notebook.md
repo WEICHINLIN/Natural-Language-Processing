@@ -2,7 +2,7 @@
 > Please put Cornell-1000-nltk.ipynb and Twitter-5000-nltk.ipynb into the folder of Jupyter Notebook first. \
 > If you use Minikube to install Kubeflow, the folder of Jupyter Notebook will usually be in：
 ```Bash
-/tmp/hostpath-provisioner/kubeflow-user-example-com/<your Jupyter name>
+/tmp/hostpath-provisioner/kubeflow-user-example-com/workspace-<your Jupyter name>
 ```
 
 ## Pipeline
