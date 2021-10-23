@@ -66,9 +66,11 @@ After success, you will see the following screen. (first time)\
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/first%20minikube.png" alt="first minikube"/><br/>
 Next, you can change the owner of the .kube and .minikube folders. \
 In this way, subsequent commands related to kubectl and minikube do not need to add sudo.
+.kube and .minikube are usually in /home/<user_name> and are hidden.
 ```Bash
 sudo chown –R <user_name> .kube .minikube
 ```
+It’s okay if you don’t do this step to change the owner, you can skip it directly.
 ```Bash
 sudo ./kubeflow.v13.sh
 ```
