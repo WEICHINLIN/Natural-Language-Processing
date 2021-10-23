@@ -18,12 +18,12 @@
 # Port Forward
 
 ### Step 1：Find the pod name of Http port
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/nltk.jpg" width="1000" height="500" alt="Pipeline"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/nltk.jpg" alt="nltk pod"/><br/>
 ### Step 2：Port-forward
 ```Bash
 kubectl port-forward -n kubeflow-user-example-com <pod name> 3000:5000
 ```
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/image/port%20forward.png" width="750" height="300" alt="Pipeline"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/port%20forward.png" alt="nltk pod port forward"/><br/>
 ### Step 3：Input in the browser
 ```Bash
 http://localhost:3000/
