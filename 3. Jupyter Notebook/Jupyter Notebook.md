@@ -8,6 +8,7 @@
 ## Pipeline
 > Cornell-1000.zip and twitter-5000.zip are compressed files generated after executing Cornell-1000-nltk.ipynb and Twitter-5000-nltk.ipynb. \
 > The content of the compressed file is the yaml file of the pipeline.
+
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/pipeline.png" alt="pipeline"/><br/>
 
 ## Custom data
