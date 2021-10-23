@@ -37,3 +37,10 @@ or
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/NLP.png" alt="NLP"/><br/>
 ### Step 4：Predict
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/nice%20to%20meet%20you.png" alt="nice to meet you"/><br/>
+
+# Relevant part
+
+* [About Version](https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/README.md)
+* [About Install](https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/1.%20Install/Install.md)
+* [About Docker](https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/2.%20Docker/Docker.md)
+
