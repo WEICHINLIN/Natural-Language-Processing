@@ -1,10 +1,10 @@
 # Jupyter Notebook
-
 > Please put Cornell-1000-nltk.ipynb and Twitter-5000-nltk.ipynb into the folder of Jupyter Notebook first. \
 > If you use Minikube to install Kubeflow, the folder of Jupyter Notebook will usually be in：
 ```Bash
 /tmp/hostpath-provisioner/kubeflow-user-example-com/<your Jupyter name>
 ```
+
 ## Pipeline
 > Cornell-1000.zip and twitter-5000.zip are compressed files generated after executing Cornell-1000-nltk.ipynb and Twitter-5000-nltk.ipynb. \
 > The content of the compressed file is the yaml file of the pipeline.
@@ -21,11 +21,13 @@
 
 ### Step 1：Find the pod name of Http port
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/nltk.jpg" alt="nltk pod"/><br/>
+
 ### Step 2：Port-forward
 ```Bash
 kubectl port-forward -n kubeflow-user-example-com <pod name> 3000:5000
 ```
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/port%20forward.png" alt="nltk pod port forward"/><br/>
+
 ### Step 3：Input in the browser
 ```Bash
 http://localhost:3000/
@@ -35,6 +37,7 @@ or
 127.0.0.1:3000
 ```
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/NLP.png" alt="NLP"/><br/>
+
 ### Step 4：Predict
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/nice%20to%20meet%20you.png" alt="nice to meet you"/><br/>
 
