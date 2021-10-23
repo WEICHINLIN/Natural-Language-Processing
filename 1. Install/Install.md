@@ -1,27 +1,24 @@
 # Clean Kubeflow v1.2 (Minikube)
-
-kubeflow v1.2 cannot be directly upgraded to kubeflow v1.3, you need to delete kubeflow v1.2 and install kubeflow v1.3. \
-Don't forget to back up your files.
+> kubeflow v1.2 cannot be directly upgraded to kubeflow v1.3, you need to delete kubeflow v1.2 and install kubeflow v1.3. \
+> Don't forget to back up your files.
 
 ### Step 1：Delete minikube environment
 ```Bash
 minikube stop
 minikube delete --purge
 ```
+
 ### Step 2：Delete docker image
 ```Bash
 docker system prune -a
 ```
+
 ### Step 3：Delete instruction packet
 ```Bash
 cd /usr/local/bin/
 sudo rm –rf *
 ```
-### Step 3：Delete instruction packet
-```Bash
-cd /usr/local/bin/
-sudo rm –rf *
-```
+
 ### Step 4：Enable boot cleanup
 ```Bash
 cd /usr/local/bin/
@@ -68,6 +65,7 @@ sudo ./minikube.sh
 ```Bash
 sudo ./kubeflow.v13.sh
 ```
+
 ### Step 4：Port-forward
 After all the pods are running
 ```Bash
