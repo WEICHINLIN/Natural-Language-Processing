@@ -62,7 +62,7 @@ If you can see Clinet and Server versions, it means success.
 ```Bash
 sudo ./minikube.sh
 ```
-After success, you will see the following screen
+After success, you will see the following screen. (first time)\
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/first%20minikube.png" alt="first minikube"/><br/>
 ```Bash
 sudo ./kubeflow.v13.sh
