@@ -97,7 +97,7 @@ In line 11, uncommented indicates that startup cleanup is enabled, and comment i
 > To ensure that the data is not deleted, this function needs to be disabled.
 
 # Second minikube start
-After the installation is complete and startup cleanup is disabled, you can shut down your computer without worrying about data loss.
+> After the installation is complete and startup cleanup is disabled, you can shut down your computer without worrying about data loss.
 After restarting the computer or virtual machine, enter:
 ```Bash
 minikube stop
