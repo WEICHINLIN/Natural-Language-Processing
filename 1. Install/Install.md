@@ -88,6 +88,7 @@ After execution, enter the following command to observe the pods status:
 kubectl get pods -n kubeflow
 ```
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/get%20pods.png" alt="get pods"/><br/>
+It takes about 30 minutes to wait for 16G RAM. \
 After seeing the same situation as on the screen, you can proceed to the next step.
 
 ### Step 6：Port-forward
