@@ -41,6 +41,9 @@ or
 ### Step 4：Predict
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/nice%20to%20meet%20you.png" alt="nice to meet you"/><br/>
 
+# Accuracy
+
+
 # Relevant part
 
 * [About Version](https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/README.md)
