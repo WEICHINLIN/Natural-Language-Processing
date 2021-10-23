@@ -83,6 +83,12 @@ It’s okay if you don’t do this step to change the owner, you can skip it dir
 ```Bash
 sudo ./kubeflow.v13.sh
 ```
+After execution, enter the following command to observe the pods status:
+```Bash
+kubectl get pods -n kubeflow
+```
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/get%20pods.png" alt="get pods"/><br/>
+After seeing the same situation as on the screen, you can proceed to the next step.
 
 ### Step 6：Port-forward
 After all the pods are running
