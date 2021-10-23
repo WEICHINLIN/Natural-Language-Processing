@@ -3,6 +3,7 @@
 ### Step 1：Open the terminal
 You must make sure you can find the following files when typing ls on the terminal. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls.png" width="300" height="100" alt="ls"/><br/>
+Once found, you can proceed to the next step.
 
 ### Step 2：Give execution permission
 ```Bash
