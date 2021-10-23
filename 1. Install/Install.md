@@ -28,7 +28,7 @@ cd /usr/local/bin/
 sudo rm –rf *
 ```
 In line 11, uncommented indicates that startup cleanup is enabled, and comment indicates that startup cleanup is not enabled.
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/ls%20-l%20no.png" alt="ls -l no"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/boot%20cleanup.png" alt="ls -l no"/><br/>
 
 # Install
 
