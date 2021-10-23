@@ -29,7 +29,7 @@ kustomize version
 > The version of kubeflow can be found in 1. Installed kubeflow.v13.sh. \
 > When kubeflow.v13.sh is executed, v1.3.1.tar will be downloaded, v1.3.1 is the version number of kubeflow.
 
-<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/kubeflow%20home.png" width="1000" height="600" alt="kubefkow home"/><br/>
+<img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/kubeflow%20home.png" width="1000" height="400" alt="kubefkow home"/><br/>
 
 # Relevant part
 
