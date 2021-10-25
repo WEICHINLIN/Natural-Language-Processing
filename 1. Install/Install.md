@@ -113,11 +113,12 @@ or
 
 ### Step 7：Disable boot cleanup
 ```Bash
-cd /usr/local/bin/
-sudo rm –rf *
+cd /usr/lib/tmpfiles.d
+sudo gedit tmp.conf
 ```
 In line 11, uncommented indicates that startup cleanup is enabled, and comment indicates that startup cleanup is not enabled. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/boot%20cleanup%20up.png" alt="ls -l no"/><br/>
+Ctrl + s Save after modification.
 > Kubeflow installed on Minikube will store data in /tmp/hostpath-provisioner. \
 > The data in /tmp will be deleted after shutdown. \
 > To ensure that the data is not deleted, this function needs to be disabled.
