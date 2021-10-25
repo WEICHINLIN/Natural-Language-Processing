@@ -21,11 +21,12 @@ sudo rm –rf *
 
 ### Step 4：Enable boot cleanup
 ```Bash
-cd /usr/local/bin/
-sudo rm –rf *
+cd /usr/lib/tmpfiles.d
+sudo gedit tmp.conf
 ```
 In line 11, uncommented indicates that startup cleanup is enabled, and comment indicates that startup cleanup is not enabled. \
 <img src="https://github.com/WEICHINLIN/Kubeflow---Natural-Language-Processing/blob/main/4.%20Image/boot%20cleanup.png" alt="ls -l no"/><br/>
+Ctrl + s Save after modification.
 
 # Install Kubeflow v1.3 (First minikube start)
 
