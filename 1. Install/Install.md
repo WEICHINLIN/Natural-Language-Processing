@@ -16,7 +16,7 @@ docker system prune -a
 ### Step 3：Delete instruction packet
 ```Bash
 cd /usr/local/bin/
-sudo rm –rf *
+sudo rm -rf *
 ```
 
 ### Step 4：Enable boot cleanup
