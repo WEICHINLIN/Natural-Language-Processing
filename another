@@ -1,2 +1,2 @@
-kubectl get pods -n istio-system | awk '{print $1}' | kubectl delete pods -n istio-system
+kubectl delete pods istio-ingressgateway-78bc678876-9b5nh -n istio-system
 kubectl get pods -n kubeflow | awk '{print $1}' | kubectl delete pods -n kubeflow
